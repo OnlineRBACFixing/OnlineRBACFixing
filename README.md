@@ -1,6 +1,6 @@
 # On-Line RBAC Fixing via Max-SAT
 
-This web site contains the experimental results and the datasets partially illustrated within the manuscript "On-line RBAC Fixing via Max-SAT" currently under review to CODASPY Conference 2018. 
+This web site contains the dataset and experimental results partially illustrated within the manuscript "On-line RBAC Fixing via Max-SAT" which is currently under review to CODASPY Conference 2018. 
 
 
 # Datasets
