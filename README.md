@@ -186,8 +186,8 @@ We picked a string of 5 exceptions to be incorporated
 |Input| Link|  	   
 |:-:	           |:---:	|
 |Permission-to-User | [UPA](dataset/permutations/UPA.txt)|
-|User-to-role      |[PA](dataset/permutations/UA.txt)  |
-|Permission-to-Role | [UA](dataset/permutations/PA.txt) |
+|User-to-role      |[UA](dataset/permutations/UA.txt)  |
+|Permission-to-Role | [PA](dataset/permutations/PA.txt) |
 |Exception List           | [excs](dataset/permutations/excs.txt)| 
 
 We generated all the  120 permutations as possibly different incorporating sequences. We fix each sequence and collected at each our metrics. 
