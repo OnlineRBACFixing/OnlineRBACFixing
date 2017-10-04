@@ -102,7 +102,6 @@ The figure above shows the minimum timeout needed to obtain a feasible solution 
 Experiment based on _SmallComp_ dataset to measure the ability of the incomplete solver adopted to satisfy the soft constraints. In particular, this is computed as the average weight of satisfied soft constraints over the total sum of weights for the 12 exceptions. 
 
 ![rateSoft](img/rateSoft.png)
-
 The figure above shows the average percentage of satisfied soft clauses (y axis) as a function of the balance B (c_axis) in the _SmallComp_ dataset
 
 Results are also available in plain text in [rate.txt](dataset/Incomplete/rate.txt) which are based on the evalaution of the three configurations:
@@ -122,19 +121,15 @@ By adopting CCEHC Max-SAT solver we asses experimentally the impact of balance B
 - [University](preferencesImpact/optsim/UniversitySimplicity360.dat)
 
 ![A_sim](preferencesImpact/optsim/A_Sim.png)
-
 The figure above shows the average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled at regular intervals.
 
 ![A_RoleAssA_sim](preferencesImpact/optsim/A_RoleAss.png)
-
 The figure above shows the average number of roles after incorporating exceptions (y axis) as a function of the balance B (x axis) for different dataset.
 
 ![A_AssPerRole](preferencesImpact/AssPerRole_SatRate/A_AssPerRole.png)
-
 The above figure shows the average number of assignments per role (y axis) depending on the balance B (x axis)
 
 ![A_SatRate.png](preferencesImpact/AssPerRole_SatRate/A_SatRate.png)
-
 The above figure shows the average percentage of satisfied weights (y axis) depending on the balance B (x axis)
 
 
