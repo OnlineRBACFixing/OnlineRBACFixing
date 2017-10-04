@@ -142,6 +142,28 @@ The above figure shows the average percentage of satisfied weights (y axis) depe
 
 ## Impact of timeout
 
+Results collected in the following are obtained starting from _Domino_ to show the impact of the with three different balance configurations:
+
+- [B = 0.15](OnlineRBACFixing/timeImpact/Semplicity_w0.15_paper.dat) 
+- [B = 0.4](OnlineRBACFixing/timeImpact/Semplicity_w0.4_paper.dat) 
+- [B = 0.65](OnlineRBACFixing/timeImpact/Semplicity_w0.65_paper.dat) 
+- [B = 0.9](OnlineRBACFixing/timeImpact/Semplicity_w0.9_paper.dat) 
+
+
+![C_timeoutSim](OnlineRBACFixing/timeImpact/C_timeoutSim.png)
+Average similarity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
+
+![C_timeoutRole](OnlineRBACFixing/timeImpact/C_timeoutRole.png) 
+Average number of roles in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
+
+![C_timeoutAss](OnlineRBACFixing/timeImpact/C_timeoutAss.png)
+Average number of assignments in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
+
+
+
+
+
+
 ## The order of exceptions
 
 
