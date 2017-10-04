@@ -123,7 +123,19 @@ By adopting CCEHC Max-SAT solver we asses experimentally the impact of balance B
 
 ![A_sim](preferencesImpact/optsim/A_Sim.png)
 
-The figure above shows the average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled ar regular intervals.
+The figure above shows the average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled at regular intervals.
+
+![A_RoleAssA_sim](preferencesImpact/optsim/A_RoleAss.png)
+
+The figure above shows the average number of roles after incorporating exceptions (y axis) as a function of the balance B (x axis) for different dataset.
+
+![A_AssPerRole](preferencesImpact/AssPerRole_SatRate/A_AssPerRole.png)
+
+The above figure shows the average number of assignments per role (y axis) depending on the balance B (x axis)
+
+![A_SatRate.png](preferencesImpact/AssPerRole_SatRate/A_SatRate.png)
+
+The above figure shows the average percentage of satisfied weights (y axis) depending on the balance B (x axis)
 
 
 
