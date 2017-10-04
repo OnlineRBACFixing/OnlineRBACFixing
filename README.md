@@ -171,7 +171,7 @@ Average number of assignments in Domino (y axis) as a function of the timeout (x
 
 ## The order of exceptions with a variant of _Domino_ dataset
 
-We selected _Domino_ dataset and we picked a string of 5 exceptions to be incorporated
+We picked a string of 5 exceptions to be incorporated
 
 |Input| Link|  	   
 |:-:	           |:---:	|
@@ -180,8 +180,8 @@ We selected _Domino_ dataset and we picked a string of 5 exceptions to be incorp
 |Permission-to-Role | [UA](dataset/permutations/PA.txt) |
 |Exception List           | [excs](dataset/permutations/excs.txt)| 
 
-We generated the all different 120 permutations as possibly different incorporating sequences. We fix each sequence and collected at each our metrics. 
+We generated all the  120 permutations as possibly different incorporating sequences. We fix each sequence and collected at each our metrics. 
 
-In the following is reported the distribution of the final number of roles obtained at different B value
+In the following is reported the distribution of the final number of roles obtained at different B values
 
 ![F](permutations/F.png)
