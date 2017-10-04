@@ -94,7 +94,7 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 
 ![H_ResponseTime](img/H_responseTime.png)
 
-The figure below shows the minimum timeout needed to obtain a feasible solution for these inputs as a function of their size. Minimum timeout needed to compute feasible solution to _Firewall1_ (y axis, secs) as a function of the number of users (x axis). Along the x-axis we also note the size of the corresponding CNF formula. The results are also available in plain text in [Results.txt](dataset/complexity/Results.txt)
+The figure above shows the minimum timeout needed to obtain a feasible solution for these inputs as a function of their size. Minimum timeout needed to compute feasible solution to _Firewall1_ (y axis, secs) as a function of the number of users (x axis). Along the x-axis we also note the size of the corresponding CNF formula. The results are also available in plain text in [Results.txt](dataset/complexity/Results.txt)
 
 
 ### Quality of incomplete solutions
@@ -123,7 +123,7 @@ By adopting CCEHC Max-SAT solver we asses experimentally the impact of balance B
 
 ![A_sim](preferencesImpact/optsim/A_Sim.png)
 
-The figure shows the average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled ar regular intervals.
+The figure above shows the average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled ar regular intervals.
 
 
 
