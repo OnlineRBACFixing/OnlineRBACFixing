@@ -96,7 +96,7 @@ The following figure shows the minimum timeout needed to obtain a feasible solut
 
 ![H_ResponseTime](img/H_responseTime.png)
 
-The same experiment has been repeat with three B configurations:
+The same experiment has been repeated with three B configurations:
 
 - [B=0.8](dataset/complexity/Results.txt)
 - [B=0.5](timeComplexity/13points_0.5.txt)
@@ -169,9 +169,19 @@ Average number of assignments in Domino (y axis) as a function of the timeout (x
 
 
 
-## The order of exceptions
+## The order of exceptions with a variant of _Domino_ dataset
 
+We selected _Domino_ dataset and we picked a string of 5 exceptions to be incorporated
 
+|Input| Link|  	   
+|:-:	           |:---:	|
+|Permission-to-User | [UPA](dataset/permutations/UPA.txt)|
+|User-to-role      |[PA](dataset/permutations/UA.txt)  |
+|Permission-to-Role | [UA](dataset/permutations/PA.txt) |
+|Exception List           | [excs](dataset/permutations/excs.txt)| 
 
+We generated the all different 120 permutations as possibly different incorporating sequences. We fix each sequence and collected at each our metrics. 
 
+In the following is reported the distribution of the final number of roles obtained at different B value
 
+![F](permutations/F.png)
