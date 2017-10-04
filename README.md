@@ -86,7 +86,7 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 90 online fixing instances of increasing size have been generated from _Firewall1_ by selecting more and more of its users (i.e., rows); each instance is associated with a single exception to incorporate and generates a Max-SAT encoding of growing size. 
 
 
-|Dimension: Number of users (CNF formula size)|UA|PA|exc|
+|Number of users (CNF formula size)|UA|PA|exc|
 |:---:|:---:|:---:|:---:|
 |5 users (0.4 MB)|[UA](dataset/complexity/89/UA.txt)|[PA](dataset/complexity/89/PA.txt)|[exc](dataset/complexity/89/excs.txt)|
 |21 users (5.2 MB)|[UA](dataset/complexity/85/UA.txt)|[PA](dataset/complexity/85/PA.txt)|[exc](dataset/complexity/85/excs.txt)|
