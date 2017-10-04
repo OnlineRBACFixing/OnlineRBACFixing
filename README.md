@@ -91,8 +91,17 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 |[PA](dataset/complexity/89/PA.txt)|[PA](dataset/complexity/85/PA.txt)|[PA](dataset/complexity/81/PA.txt)|[PA](dataset/complexity/77/PA.txt)|[PA](dataset/complexity/73/PA.txt)|[PA](dataset/complexity/69/PA.txt)|[PA](dataset/complexity/65/PA.txt)|[PA](dataset/complexity/61/PA.txt)|[PA](dataset/complexity/57/PA.txt)|[PA](dataset/complexity/53/PA.txt)|[PA](dataset/complexity/49/PA.txt)|[PA](dataset/complexity/45/PA.txt)|[PA](dataset/complexity/41/PA.txt)|
 |[exc](dataset/complexity/89/excs.txt)|[exc](dataset/complexity/85/excs.txt)|[exc](dataset/complexity/81/excs.txt)|[exc](dataset/complexity/77/excs.txt)|[exc](dataset/complexity/73/excs.txt)|[exc](dataset/complexity/69/excs.txt)|[exc](dataset/complexity/65/excs.txt)|[exc](dataset/complexity/61/excs.txt)|[exc](dataset/complexity/57/excs.txt)|[exc](dataset/complexity/53/excs.txt)|[exc](dataset/complexity/49/excs.txt)|[exc](dataset/complexity/45/excs.txt)|[exc](dataset/complexity/41/excs.txt)|
 
-The following figure shows the minimum timeout needed to obtain a feasible solution for these inputs as a function of their size. Minimum timeout needed to compute feasible solution to _Firewall1_ (y axis, secs) as a function of the number of users (x axis). Along the x-axis we also note the size of the corresponding CNF formula. The results are also available in plain text in [Results.txt](dataset/complexity/Results.txt)
+
+The following figure shows the minimum timeout needed to obtain a feasible solution for these inputs as a function of their size with B=0.8. Minimum timeout needed to compute feasible solution to _Firewall1_ (y axis, secs) as a function of the number of users (x axis). Along the x-axis we also note the size of the corresponding CNF formula. 
+
 ![H_ResponseTime](img/H_responseTime.png)
+
+The same experiment has been repeat with three B configurations:
+
+- [B=0.8](dataset/complexity/Results.txt)
+- [B=0.5](timeComplexity/13points_0.5.txt)
+- [B=0.2](timeComplexity/13points_0.2.txt)
+
 
 
 
