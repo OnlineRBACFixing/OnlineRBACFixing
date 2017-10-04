@@ -110,13 +110,13 @@ The same experiment has been repeated with three B configurations:
 Experiment based on _SmallComp_ dataset to measure the ability of the incomplete solver adopted to satisfy the soft constraints. In particular, this is computed as the average weight of satisfied soft constraints over the total sum of weights for the 12 exceptions. 
 
 Average percentage of satisfied soft clauses (y axis) as a function of the balance B (c_axis) in the _SmallComp_ dataset:
-![rateSoft](img/rateSoft.png)
+![rateSoft](qualityIncomplete/rateSoft.png)
 
 
-Results are also available in plain text in [rate.txt](dataset/Incomplete/rate.txt) which are based on the evalaution of the three configurations:
-- complete solver [Results.txt](dataset/Incomplete/complete/Results.txt)
-- incomplete solver (timeout 2 sec) [Results.txt](dataset/Incomplete/2/Results.txt)
-- incomplete solver (timeout 180 sec) [Results.txt](dataset/Incomplete/180/Results.txt)
+Results are also available in plain text in [rate.txt](qualityIncomplete/rate.txt) which are based on the evalaution of the three configurations:
+- complete solver [Results.txt](qualityIncomplete/Results.txt)
+- incomplete solver (timeout 2 sec) [Results.txt](qualityIncomplete/2/Results.txt)
+- incomplete solver (timeout 180 sec) [Results.txt](qualityIncomplete//180/Results.txt)
 
 
 # Experimental Results 
