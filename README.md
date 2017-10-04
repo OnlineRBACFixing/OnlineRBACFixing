@@ -85,11 +85,22 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 
 90 online fixing instances of increasing size have been generated from _Firewall1_ by selecting more and more of its users (i.e., rows); each instance is associated with a single exception to incorporate and generates a Max-SAT encoding of growing size. 
 
-|5 users (0.4 MB)|21 users (5.2 MB)|37 users (12.0 MB)|53 users (29.1 MB)|69 users (57.9 MB)|85 users (83.8 MB)|101 users (120.9 MB)|117 users (170.5 MB)|133 users (232.9 MB)|149 users (315.1 MB)|165 users (352.9 MB)|181 users (398.2 MB)|197 users (541.5 MB)|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|	
-|[UA](dataset/complexity/89/UA.txt)|[UA](dataset/complexity/85/UA.txt)|[UA](dataset/complexity/81/UA.txt)|[UA](dataset/complexity/77/UA.txt)|[UA](dataset/complexity/73/UA.txt)|[UA](dataset/complexity/69/UA.txt)|[UA](dataset/complexity/65/UA.txt)|[UA](dataset/complexity/61/UA.txt)|[UA](dataset/complexity/57/UA.txt)|[UA](dataset/complexity/53/UA.txt)|[UA](dataset/complexity/49/UA.txt)|[UA](dataset/complexity/45/UA.txt)|[UA](dataset/complexity/41/UA.txt)|
-|[PA](dataset/complexity/89/PA.txt)|[PA](dataset/complexity/85/PA.txt)|[PA](dataset/complexity/81/PA.txt)|[PA](dataset/complexity/77/PA.txt)|[PA](dataset/complexity/73/PA.txt)|[PA](dataset/complexity/69/PA.txt)|[PA](dataset/complexity/65/PA.txt)|[PA](dataset/complexity/61/PA.txt)|[PA](dataset/complexity/57/PA.txt)|[PA](dataset/complexity/53/PA.txt)|[PA](dataset/complexity/49/PA.txt)|[PA](dataset/complexity/45/PA.txt)|[PA](dataset/complexity/41/PA.txt)|
-|[exc](dataset/complexity/89/excs.txt)|[exc](dataset/complexity/85/excs.txt)|[exc](dataset/complexity/81/excs.txt)|[exc](dataset/complexity/77/excs.txt)|[exc](dataset/complexity/73/excs.txt)|[exc](dataset/complexity/69/excs.txt)|[exc](dataset/complexity/65/excs.txt)|[exc](dataset/complexity/61/excs.txt)|[exc](dataset/complexity/57/excs.txt)|[exc](dataset/complexity/53/excs.txt)|[exc](dataset/complexity/49/excs.txt)|[exc](dataset/complexity/45/excs.txt)|[exc](dataset/complexity/41/excs.txt)|
+
+|Dimension|UA|PA|exc|
+|:---:|:---:|:---:|:---:|
+|5 users (0.4 MB)|[UA](dataset/complexity/89/UA.txt)|[PA](dataset/complexity/89/PA.txt)|[exc](dataset/complexity/89/excs.txt)|
+|21 users (5.2 MB)|[UA](dataset/complexity/85/UA.txt)|[PA](dataset/complexity/85/PA.txt)|[exc](dataset/complexity/85/excs.txt)|
+|37 users (12.0 MB)|[UA](dataset/complexity/81/UA.txt)|[PA](dataset/complexity/81/PA.txt)|[exc](dataset/complexity/81/excs.txt)|
+|53 users (29.1 MB)|[UA](dataset/complexity/77/UA.txt)|[PA](dataset/complexity/77/PA.txt)|[exc](dataset/complexity/77/excs.txt)|
+|69 users (57.9 MB)|[UA](dataset/complexity/73/UA.txt)|[PA](dataset/complexity/73/PA.txt)|[exc](dataset/complexity/73/excs.txt)|
+|85 users (83.8 MB)|[UA](dataset/complexity/69/UA.txt)|[PA](dataset/complexity/69/PA.txt)|[exc](dataset/complexity/69/excs.txt)|
+|101 users (120.9 MB)|[UA](dataset/complexity/65/UA.txt)|[PA](dataset/complexity/65/PA.txt)|[exc](dataset/complexity/65/excs.txt)|
+|117 users (170.5 MB)|[UA](dataset/complexity/61/UA.txt)|[PA](dataset/complexity/61/PA.txt)|[exc](dataset/complexity/61/excs.txt)|
+|133 users (232.9 MB)|[UA](dataset/complexity/57/UA.txt)|[PA](dataset/complexity/57/PA.txt)|[exc](dataset/complexity/57/excs.txt)|
+|149 users (315.1 MB)|[UA](dataset/complexity/53/UA.txt)|[PA](dataset/complexity/53/PA.txt)|[exc](dataset/complexity/53/excs.txt)|
+|165 users (352.9 MB)|[UA](dataset/complexity/49/UA.txt)|[PA](dataset/complexity/49/PA.txt)|[exc](dataset/complexity/49/excs.txt)|
+|181 users (398.2 MB)|[UA](dataset/complexity/45/UA.txt)|[PA](dataset/complexity/45/PA.txt)|[exc](dataset/complexity/45/excs.txt)|
+|197 users (541.5 MB)|[UA](dataset/complexity/41/UA.txt)|[PA](dataset/complexity/41/PA.txt)|[exc](dataset/complexity/41/excs.txt)|
 
 
 The following figure shows the minimum timeout needed (y axis) to obtain a feasible solution for these inputs as a function of their size (x axis) with B=0.8. Along the x-axis we note number of users and the size of the corresponding CNF formula. 
