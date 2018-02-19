@@ -126,21 +126,21 @@ Results are also available in plain text in [rates.txt](qualityIncompleteMainten
 
 By adopting CCEHC Max-SAT solver we asses experimentally the impact of balance B to **sim** (similarity) and **opt** (simplicity) for three dataset.
 
-- [SmallComp](preferencesImpact/optsim/SmallCompSimplicity180.dat) 
-- [Domino](preferencesImpact/optsim/DominoSimplicity180.dat)
-- [University](preferencesImpact/optsim/UniversitySimplicity360.dat)
+- [SmallComp](preferencesImpactMaintenance/optsim/SmallComp_AVG_Quality.dat) 
+- [Domino](preferencesImpactMaintenance/optsim/Domino_AVG_Quality.dat)
+- [University](preferencesImpactMaintenance/optsim/University_AVG_Quality.dat)
 
 Average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled at regular intervals:
-![A_sim](preferencesImpact/optsim/A_Sim.png)
+![A_SimOpt.png](imgMaintenance/A_SimOpt.png)
 
-Average number of roles after incorporating exceptions (y axis) as a function of the balance B (x axis) for different dataset:
-![A_RoleAssA_sim](preferencesImpact/optsim/A_RoleAss.png)
+Average number of roles (y axis) after incorporating exceptions as a function of the balance B (x axis) for different dataset:
+![A_Role.png](imgMaintenance/A_Role.png)
 
-Average number of assignments per role (y axis) depending on the balance B (x axis):
-![A_AssPerRole](preferencesImpact/AssPerRole_SatRate/A_AssPerRole.png)
+Average number of assignments (y axis) depending on the balance B (x axis):
+![A_Ass.png](imgMaintenance/A_Ass.png)
 
 Average percentage of satisfied weights (y axis) depending on the balance B (x axis):
-![A_SatRate.png](preferencesImpact/AssPerRole_SatRate/A_SatRate.png)
+![A_SatRate.png](imgMaintenance/A_SatRate.png)
 
 
 
