@@ -188,7 +188,7 @@ We generated all the 720 permutations as possibly different incorporating sequen
 
 In the following is reported the distribution of the final number of roles obtained at different B values.
 
-![F](imgMaintenance/F.png)
+![F](imgMaintenance/F_roles.png)
 
 Corresponding input data are also available in the following:
 
