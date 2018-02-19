@@ -65,10 +65,10 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 
 |Solver  	       |SmallComp  |Domino   	 |University   	|Firewall1   	|   	
 |:-:	           |:---:	|:---:	|:---:	|:---:	|	
-|_Maximo_   	   |[B<=0.5](complete/SC/Maximo/Results.txt)   	   |[B=0](complete/D/Maximo/Results.txt)    	  |[B=0](complete/U/Maximo/Results.txt)   	| [B=0](complete/F/Maximo/Results.txt)   	|   	
-|_MaxHS_   	     |[B<=0.4](complete/SC/MaxHS/Results.txt)     	   |[B=0](complete/D/MaxHS/Results.txt)   	      |[B=0](complete/U/MaxHS/Results.txt)    	|  -  	|   	
-|_LMHS_ |[B<=0.3](complete/SC/CCLS2akmaxsat/Results.txt) | [B=0](complete/D/LMHS/Results.txt)   |  [B=0](complete/D/LMHS/Results.txt)  	|  - 	|   
-|_Ahmaxsat_   	 |[B<=0.25](complete/SC/Ahmaxsat/Results.txt)   	 |- | -  	|  - 	|   	
+|_Maximo_   	   |[B<=0.5](complete/SC/maximo/Results.txt)   	   |[B=0](complete/D/maximo/Results.txt)    	  |[B=0](complete/U/maximo/Results.txt)   	| [B=0](complete/F/maximo/Results.txt)   	|   	
+|_MaxHS_   	     |[B<=0.4](complete/SC/maxHS/Results.txt)     	   |[B=0](complete/D/maxHS/Results.txt)   	      |[B=0](complete/U/maxHS/Results.txt)    	|  -  	|   	
+|_LMHS_ |[B<=0.3](complete/SC/lmhs/Results.txt) | [B=0](complete/D/lmhs/Results.txt)   |  [B=0](complete/D/lmhs/Results.txt)  	|  - 	|   
+|_Ahmaxsat_   	 |[B<=0.25](complete/SC/ahmaxsat/Results.txt)   	 |- | -  	|  - 	|   	
 
 
 
