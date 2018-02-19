@@ -188,12 +188,12 @@ We generated all the 720 permutations as possibly different incorporating sequen
 
 In the following is reported the distribution of the final number of roles obtained at different B values.
 
-![F](permutationsMaintenance/F.png)
+![F](imgMaintenance/F.png)
 
 Corresponding input data are also available in the following:
 
-- [B = 0.65](permutationsMaintenance/0.65/AVG_Quality_b0.65.dat), [log_B = 0.65](permutationsMaintenance/0.65/AVG_Quality_b0.65.dat) 
-- [B = 0.4](permutationsMaintenance/0.4/AVG_Quality_b0.4.dat), [log_B = 0.4](permutationsMaintenance/0.4/AVG_Quality_b0.4.dat)
-- [B = 0.25](permutationsMaintenance/0.25/AVG_Quality_b0.25.dat), [log_B = 0.25](permutationsMaintenance/0.25/AVG_Quality_b0.25.dat)
-- [B = 0.15](permutationsMaintenance/0.15/AVG_Quality_b0.15.dat), [log_B = 0.15](permutationsMaintenance/0.15/AVG_Quality_b0.15.dat)
-- [B = 0.1](permutationsMaintenance/0.1/AVG_Quality_b0.1.dat), [log_B = 0.1](permutationsMaintenance/0.1/AVG_Quality_b0.1.dat)
+- [B = 0.65](permutazioniMaintenance/0.65/AVG_Quality_b0.65.dat), [log_B = 0.65](permutazioniMaintenance/0.65/AVG_Quality_b0.65.dat) 
+- [B = 0.4](permutazioniMaintenance/0.4/AVG_Quality_b0.4.dat), [log_B = 0.4](permutazioniMaintenance/0.4/AVG_Quality_b0.4.dat)
+- [B = 0.25](permutazioniMaintenance/0.25/AVG_Quality_b0.25.dat), [log_B = 0.25](permutazioniMaintenance/0.25/AVG_Quality_b0.25.dat)
+- [B = 0.15](permutazioniMaintenance/0.15/AVG_Quality_b0.15.dat), [log_B = 0.15](permutazioniMaintenance/0.15/AVG_Quality_b0.15.dat)
+- [B = 0.1](permutazioniMaintenance/0.1/AVG_Quality_b0.1.dat), [log_B = 0.1](permutazioniMaintenance/0.1/AVG_Quality_b0.1.dat)
