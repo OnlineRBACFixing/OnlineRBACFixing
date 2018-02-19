@@ -152,20 +152,20 @@ Results collected in the following are obtained starting from _Domino_ to show t
 - [B = 0.65](timeImpactMaintenance/AVG_Quality_b0.65.dat) 
 - [B = 0.45](timeImpactMaintenance/AVG_Quality_b0.45.dat) 
 - [B = 0.25](timeImpactMaintenance/AVG_Quality_b0.25.dat) 
-- [B = 0.10](timeImpactMaintenance/AVG_Quality_b0.10.dat)
+- [B = 0.10](timeImpactMaintenance/AVG_Quality_b0.1.dat)
 - [B = 0.05](timeImpactMaintenance/AVG_Quality_b0.05.dat)
 
 Average simplicity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutOpt](timeImpact/C_timeoutOpt.png)
+![C_timeoutOpt](timeImpactMaintenance/C_timeoutOpt.png)
 
 Average similarity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutSim](timeImpact/C_timeoutSim.png)
+![C_timeoutSim](timeImpactMaintenance/C_timeoutSim.png)
 
 Average number of roles in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutRole](timeImpact/C_timeoutRole.png) 
+![C_timeoutRole](timeImpactMaintenance/C_timeoutRole.png) 
 
 Average number of assignments in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutAss](timeImpact/C_timeoutAss.png)
+![C_timeoutAss](timeImpactMaintenance/C_timeoutAss.png)
 
 
 
@@ -175,7 +175,7 @@ Average number of assignments in Domino (y axis) as a function of the timeout (x
 
 ## The order of exceptions with a variant of _Domino_ dataset
 
-We picked a string of 5 exceptions to be incorporated.
+We picked a string of 6 exceptions to be incorporated.
 
 |Input| Link|  	   
 |:-:	           |:---:	|
@@ -184,8 +184,16 @@ We picked a string of 5 exceptions to be incorporated.
 |Permission-to-Role | [PA](dataset/permutations/PA.txt) |
 |Exception List           | [excs](dataset/permutations/excs.txt)| 
 
-We generated all the  120 permutations as possibly different incorporating sequences. We fix each sequence and collected at each our metrics. 
+We generated all the 720 permutations as possibly different incorporating sequences. We fix each sequence and collected at each our metrics (715/720 paths considered as solvable in less than 60 seconds). 
 
 In the following is reported the distribution of the final number of roles obtained at different B values.
 
-![F](permutations/F.png)
+![F](permutationsMaintenance/F.png)
+
+Corresponding input data are also available in the following:
+
+- [B = 0.65](permutationsMaintenance/0.65/AVG_Quality_b0.65.dat), [log_B = 0.65](permutationsMaintenance/0.65/AVG_Quality_b0.65.dat) 
+- [B = 0.4](permutationsMaintenance/0.4/AVG_Quality_b0.4.dat), [log_B = 0.4](permutationsMaintenance/0.4/AVG_Quality_b0.4.dat)
+- [B = 0.25](permutationsMaintenance/0.25/AVG_Quality_b0.25.dat), [log_B = 0.25](permutationsMaintenance/0.25/AVG_Quality_b0.25.dat)
+- [B = 0.15](permutationsMaintenance/0.15/AVG_Quality_b0.15.dat), [log_B = 0.15](permutationsMaintenance/0.15/AVG_Quality_b0.15.dat)
+- [B = 0.1](permutationsMaintenance/0.1/AVG_Quality_b0.1.dat), [log_B = 0.1](permutationsMaintenance/0.1/AVG_Quality_b0.1.dat)
