@@ -65,10 +65,10 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 
 |Solver  	       |SmallComp  |Domino   	 |University   	|Firewall1   	|   	
 |:-:	           |:---:	|:---:	|:---:	|:---:	|	
-|_Maximo_   	   |[B<=0.5](CompleteS/SC/Maximo/Results.txt)   	   |[B=0](CompleteS/D/Maximo/Results.txt)    	  |[B=0](CompleteS/U/Maximo/Results.txt)   	| [B=0](CompleteS/F/Maximo/Results.txt)   	|   	
-|_MaxHS_   	     |[B<=0.4](CompleteS/SC/MaxHS/Results.txt)     	   |[B=0](CompleteS/D/MaxHS/Results.txt)   	      |[B=0](CompleteS/U/MaxHS/Results.txt)    	|  -  	|   	
-|_LMHS_ |[B<=0.3](CompleteS/SC/CCLS2akmaxsat/Results.txt) | [B=0](CompleteS/D/LMHS/Results.txt)   |  [B=0](CompleteS/D/LMHS/Results.txt)  	|  - 	|   
-|_Ahmaxsat_   	 |[B<=0.25](CompleteS/SC/Ahmaxsat/Results.txt)   	 |- | -  	|  - 	|   	
+|_Maximo_   	   |[B<=0.5](complete/SC/Maximo/Results.txt)   	   |[B=0](complete/D/Maximo/Results.txt)    	  |[B=0](complete/U/Maximo/Results.txt)   	| [B=0](complete/F/Maximo/Results.txt)   	|   	
+|_MaxHS_   	     |[B<=0.4](complete/SC/MaxHS/Results.txt)     	   |[B=0](complete/D/MaxHS/Results.txt)   	      |[B=0](complete/U/MaxHS/Results.txt)    	|  -  	|   	
+|_LMHS_ |[B<=0.3](complete/SC/CCLS2akmaxsat/Results.txt) | [B=0](complete/D/LMHS/Results.txt)   |  [B=0](complete/D/LMHS/Results.txt)  	|  - 	|   
+|_Ahmaxsat_   	 |[B<=0.25](complete/SC/Ahmaxsat/Results.txt)   	 |- | -  	|  - 	|   	
 
 
 
@@ -85,19 +85,19 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 
 |Number of users (CNF formula size)|UA|PA|exc|
 |:---:|:---:|:---:|:---:|
-|5 users (0.4 MB)|[UA](dataset/complexity/89/UA.txt)|[PA](dataset/complexity/89/PA.txt)|[exc](dataset/complexity/89/excs.txt)|
-|21 users (5.2 MB)|[UA](dataset/complexity/85/UA.txt)|[PA](dataset/complexity/85/PA.txt)|[exc](dataset/complexity/85/excs.txt)|
-|37 users (12.0 MB)|[UA](dataset/complexity/81/UA.txt)|[PA](dataset/complexity/81/PA.txt)|[exc](dataset/complexity/81/excs.txt)|
-|53 users (29.1 MB)|[UA](dataset/complexity/77/UA.txt)|[PA](dataset/complexity/77/PA.txt)|[exc](dataset/complexity/77/excs.txt)|
-|69 users (57.9 MB)|[UA](dataset/complexity/73/UA.txt)|[PA](dataset/complexity/73/PA.txt)|[exc](dataset/complexity/73/excs.txt)|
-|85 users (83.8 MB)|[UA](dataset/complexity/69/UA.txt)|[PA](dataset/complexity/69/PA.txt)|[exc](dataset/complexity/69/excs.txt)|
-|101 users (120.9 MB)|[UA](dataset/complexity/65/UA.txt)|[PA](dataset/complexity/65/PA.txt)|[exc](dataset/complexity/65/excs.txt)|
-|117 users (170.5 MB)|[UA](dataset/complexity/61/UA.txt)|[PA](dataset/complexity/61/PA.txt)|[exc](dataset/complexity/61/excs.txt)|
-|133 users (232.9 MB)|[UA](dataset/complexity/57/UA.txt)|[PA](dataset/complexity/57/PA.txt)|[exc](dataset/complexity/57/excs.txt)|
-|149 users (315.1 MB)|[UA](dataset/complexity/53/UA.txt)|[PA](dataset/complexity/53/PA.txt)|[exc](dataset/complexity/53/excs.txt)|
-|165 users (352.9 MB)|[UA](dataset/complexity/49/UA.txt)|[PA](dataset/complexity/49/PA.txt)|[exc](dataset/complexity/49/excs.txt)|
-|181 users (398.2 MB)|[UA](dataset/complexity/45/UA.txt)|[PA](dataset/complexity/45/PA.txt)|[exc](dataset/complexity/45/excs.txt)|
-|197 users (541.5 MB)|[UA](dataset/complexity/41/UA.txt)|[PA](dataset/complexity/41/PA.txt)|[exc](dataset/complexity/41/excs.txt)|
+|5 users (0.3 MB)|[UA](dataset/complexity/89/UA.txt)|[PA](dataset/complexity/89/PA.txt)|[exc](dataset/complexity/89/excs.txt)|
+|21 users (5.1 MB)|[UA](dataset/complexity/85/UA.txt)|[PA](dataset/complexity/85/PA.txt)|[exc](dataset/complexity/85/excs.txt)|
+|37 users (11.3 MB)|[UA](dataset/complexity/81/UA.txt)|[PA](dataset/complexity/81/PA.txt)|[exc](dataset/complexity/81/excs.txt)|
+|53 users (27.5 MB)|[UA](dataset/complexity/77/UA.txt)|[PA](dataset/complexity/77/PA.txt)|[exc](dataset/complexity/77/excs.txt)|
+|69 users (54.9 MB)|[UA](dataset/complexity/73/UA.txt)|[PA](dataset/complexity/73/PA.txt)|[exc](dataset/complexity/73/excs.txt)|
+|85 users (79.6 MB)|[UA](dataset/complexity/69/UA.txt)|[PA](dataset/complexity/69/PA.txt)|[exc](dataset/complexity/69/excs.txt)|
+|101 users (120.1 MB)|[UA](dataset/complexity/65/UA.txt)|[PA](dataset/complexity/65/PA.txt)|[exc](dataset/complexity/65/excs.txt)|
+|117 users (162.4 MB)|[UA](dataset/complexity/61/UA.txt)|[PA](dataset/complexity/61/PA.txt)|[exc](dataset/complexity/61/excs.txt)|
+|133 users (231.7 MB)|[UA](dataset/complexity/57/UA.txt)|[PA](dataset/complexity/57/PA.txt)|[exc](dataset/complexity/57/excs.txt)|
+|149 users (300.9 MB)|[UA](dataset/complexity/53/UA.txt)|[PA](dataset/complexity/53/PA.txt)|[exc](dataset/complexity/53/excs.txt)|
+|165 users (337.2 MB)|[UA](dataset/complexity/49/UA.txt)|[PA](dataset/complexity/49/PA.txt)|[exc](dataset/complexity/49/excs.txt)|
+|181 users (380.7 MB)|[UA](dataset/complexity/45/UA.txt)|[PA](dataset/complexity/45/PA.txt)|[exc](dataset/complexity/45/excs.txt)|
+|197 users (519.1 MB)|[UA](dataset/complexity/41/UA.txt)|[PA](dataset/complexity/41/PA.txt)|[exc](dataset/complexity/41/excs.txt)|
 
 
 The following figure shows the minimum timeout needed (y axis) to obtain a feasible solution for these inputs as a function of their size (x axis) with B=0.8.
