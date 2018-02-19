@@ -126,9 +126,9 @@ Results are also available in plain text in [rates.txt](qualityIncompleteMainten
 
 By adopting CCEHC Max-SAT solver we asses experimentally the impact of balance B to **sim** (similarity) and **opt** (simplicity) for three dataset.
 
-- [SmallComp](preferencesImpactMaintenance/optsim/SmallComp_AVG_Quality.dat) 
-- [Domino](preferencesImpactMaintenance/optsim/Domino_AVG_Quality.dat)
-- [University](preferencesImpactMaintenance/optsim/University_AVG_Quality.dat)
+- [SmallComp](preferencesImpactMaintenance/SmallComp_AVG_Quality.dat) 
+- [Domino](preferencesImpactMaintenance/Domino_AVG_Quality.dat)
+- [University](preferencesImpactMaintenance/University_AVG_Quality.dat)
 
 Average similarity and simplicity (y axis) as a function of the balance B (x axis) with 21 values of B sampled at regular intervals:
 ![A_SimOpt.png](imgMaintenance/A_SimOpt.png)
@@ -149,11 +149,14 @@ Average percentage of satisfied weights (y axis) depending on the balance B (x a
 
 Results collected in the following are obtained starting from _Domino_ to show the impact of the timeout with three different balance configurations:
 
-- [B = 0.15](timeImpact/Semplicity_w0.15_paper.dat) 
-- [B = 0.4](timeImpact/Semplicity_w0.4_paper.dat) 
-- [B = 0.65](timeImpact/Semplicity_w0.65_paper.dat) 
-- [B = 0.9](timeImpact/Semplicity_w0.9_paper.dat) 
+- [B = 0.65](timeImpactMaintenance/AVG_Quality_b0.65.dat) 
+- [B = 0.45](timeImpactMaintenance/AVG_Quality_b0.45.dat) 
+- [B = 0.25](timeImpactMaintenance/AVG_Quality_b0.25.dat) 
+- [B = 0.10](timeImpactMaintenance/AVG_Quality_b0.10.dat)
+- [B = 0.05](timeImpactMaintenance/AVG_Quality_b0.05.dat)
 
+Average simplicity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
+![C_timeoutOpt](timeImpact/C_timeoutOpt.png)
 
 Average similarity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
 ![C_timeoutSim](timeImpact/C_timeoutSim.png)
