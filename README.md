@@ -115,9 +115,9 @@ Average percentage of satisfied soft clauses (y axis) as a function of the balan
 
 
 Results are also available in plain text in [rates.txt](qualityIncompleteMaintenance/rates.txt) which are based on the evalaution of the three configurations:
-- complete solver [Results.txt](qualityIncompleteMaintenance/Results.txt)
-- incomplete solver (timeout 2 sec) [Results.txt](qualityIncompleteMaintenance/2/Results.txt)
-- incomplete solver (timeout 180 sec) [Results.txt](qualityIncompleteMaintenance//180/Results.txt)
+- complete solver [Results_Complete.txt](qualityIncompleteMaintenance/Results.txt)
+- incomplete solver (timeout 2 sec) [Results_t=2.txt](qualityIncompleteMaintenance/2/Results.txt)
+- incomplete solver (timeout 180 sec) [Results_t=180.txt](qualityIncompleteMaintenance//180/Results.txt)
 
 
 # Experimental Results 
