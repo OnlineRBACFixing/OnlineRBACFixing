@@ -100,7 +100,7 @@ Dataset benchmark used in Role-ming literature representing policies implemented
 |197 users (519.1 MB)|[UA](dataset/complexity/41/UA.txt)|[PA](dataset/complexity/41/PA.txt)|[exc](dataset/complexity/41/excs.txt)|
 
 
-The following figure shows the minimum timeout needed (y axis) to obtain a feasible solution for these inputs as a function of their size (x axis) with [B=0.8](dataset/complexity/Results.txt).
+The following figure shows the minimum timeout needed (y axis) to obtain a feasible solution for these inputs as a function of their size (x axis) with [B=0.8](complexity/Results.txt).
 ![H_ResponseTime](imgMaintenance/H_responseTime.png)
 
 
