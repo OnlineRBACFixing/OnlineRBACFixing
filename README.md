@@ -114,7 +114,7 @@ Average percentage of satisfied soft clauses (y axis) as a function of the balan
 ![rateSoft](imgMaintenance/rateSoft.png)
 
 
-Results are also available in plain text in [rate.txt](qualityIncompleteMaintenance/rate.txt) which are based on the evalaution of the three configurations:
+Results are also available in plain text in [rates.txt](qualityIncompleteMaintenance/rates.txt) which are based on the evalaution of the three configurations:
 - complete solver [Results.txt](qualityIncompleteMaintenance/Results.txt)
 - incomplete solver (timeout 2 sec) [Results.txt](qualityIncompleteMaintenance/2/Results.txt)
 - incomplete solver (timeout 180 sec) [Results.txt](qualityIncompleteMaintenance//180/Results.txt)
