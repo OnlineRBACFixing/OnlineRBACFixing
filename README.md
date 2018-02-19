@@ -156,16 +156,16 @@ Results collected in the following are obtained starting from _Domino_ to show t
 - [B = 0.05](timeImpactMaintenance/AVG_Quality_b0.05.dat)
 
 Average simplicity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutOpt](timeImpactMaintenance/C_timeoutOpt.png)
+![C_timeoutOpt](imgMaintenance/C_timeoutOpt.png)
 
 Average similarity in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutSim](timeImpactMaintenance/C_timeoutSim.png)
+![C_timeoutSim](imgMaintenance/C_timeoutSim.png)
 
 Average number of roles in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutRole](timeImpactMaintenance/C_timeoutRole.png) 
+![C_timeoutRole](imgMaintenance/C_timeoutRole.png) 
 
 Average number of assignments in Domino (y axis) as a function of the timeout (x axis, secs) at different balance points B.
-![C_timeoutAss](timeImpactMaintenance/C_timeoutAss.png)
+![C_timeoutAss](imgMaintenance/C_timeoutAss.png)
 
 
 
