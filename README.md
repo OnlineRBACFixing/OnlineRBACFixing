@@ -1,6 +1,6 @@
 # Parametric RBAC Maintenance via Max-SAT
 
-This web site contains the dataset and experimental results partially illustrated within the manuscript "Paramtric RBAC Maintenance via Max-SAT" which is currently under review to SACMAT Conference 2018. 
+This web site contains the dataset and experimental results partially illustrated within the manuscript "Parametric RBAC Maintenance via Max-SAT" which is currently under review to SACMAT Conference 2018. 
 
 # Datasets
 
